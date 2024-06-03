@@ -22,10 +22,6 @@ function updateFormData(event) {
   saveFormData();
 }
 
-// if (savedFormData) {
-//   form.email.value = savedFormData.email;
-//   form.message.value = savedFormData.message;
-// }
 
 form.email.value = formData.email;
 form.message.value = formData.message;
